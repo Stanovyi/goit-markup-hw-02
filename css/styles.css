@@ -73,42 +73,19 @@ ul {
 }
 
 .hero-button {
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   text-align: center;
   font-weight: 500;
   color: #fff;
   background-color: #4d5ae5;
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover {
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #404bbf;
 }
 /* #endregion */
 
 /* #region Our features */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  overflow: hidden;
-}
-/* #endregion */
-
-/* #region Our features */
-.features-list-item {
-  width: 264px;
-  height: 104px;
-}
-
 .list-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -129,13 +106,7 @@ ul {
 }
 
 .team-list-item {
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
   text-align: center;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-item-name {
@@ -155,11 +126,6 @@ ul {
   font-size: 36px;
   line-height: 111%;
   text-align: center;
-}
-
-.portfolio-list-item {
-  width: 360px;
-  height: 420px;
 }
 
 .portfolio-item-title {
