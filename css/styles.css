@@ -10,7 +10,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -31,6 +30,7 @@ ul {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .navigation-logo-accent {
@@ -41,9 +41,13 @@ ul {
   line-height: 150%;
 }
 
-.navigation-list-item {
+.navigation-list-item a {
   font-weight: 500;
   color: #2e2f42;
+}
+
+.contacts-list-item a {
+  color: #434455;
 }
 
 .navigation-list-item a:hover,
@@ -61,6 +65,7 @@ ul {
 }
 
 .hero-title {
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -120,6 +125,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
+  text-align: center;
 }
 
 .team-list-item {
@@ -148,6 +154,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
+  text-align: center;
 }
 
 .portfolio-list-item {
@@ -169,7 +176,6 @@ ul {
 /* #region Footer */
 .footer {
   background-color: #2e2f42;
-  color: #f4f4fd;
 }
 
 .footer-logo {
@@ -179,6 +185,7 @@ ul {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-logo-accent {
@@ -187,5 +194,7 @@ ul {
 
 .footer-description {
   line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 /* #endregion */
