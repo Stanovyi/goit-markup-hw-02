@@ -76,6 +76,7 @@ address {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #fff;
 }
 
@@ -84,6 +85,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  text-transform: capitalize;
   color: #fff;
   background-color: #4d5ae5;
 }
@@ -113,6 +115,9 @@ address {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  transform: capitalize;
   text-align: center;
 }
 
@@ -128,6 +133,7 @@ address {
 
 .team-item-position {
   line-height: 150%;
+  text-transform: capitalize;
 }
 /* #endregion */
 
@@ -136,6 +142,7 @@ address {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
+  text-transform: capitalize;
   text-align: center;
 }
 
@@ -143,6 +150,7 @@ address {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
+  text-transform: capitalize;
 }
 
 .portfolio-item-category {
