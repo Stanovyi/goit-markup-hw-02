@@ -52,14 +52,14 @@ address {
   color: #2e2f42;
 }
 
-.contacts-list-item a {
+.contacts-list-item {
   color: #434455;
 }
 
 .navigation-list-item:hover,
 .navigation-list-item:focus,
 .navigation-list-item:active,
-.contacts-list-item a:hover {
+.contacts-list-item:hover {
   color: #404bbf;
 }
 /* #endregion */
