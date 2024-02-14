@@ -59,7 +59,8 @@ address {
 .navigation-list-item:hover,
 .navigation-list-item:focus,
 .navigation-list-item:active,
-.contacts-list-item:hover {
+.contacts-list-item:hover,
+.contacts-list-item:focus {
   color: #404bbf;
 }
 /* #endregion */
