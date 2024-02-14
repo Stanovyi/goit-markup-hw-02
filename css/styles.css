@@ -20,6 +20,10 @@ a {
 ul {
   list-style-type: none;
 }
+
+address {
+  font-style: normal;
+}
 /* #endregion */
 
 /* #region Common styles */
@@ -58,7 +62,6 @@ ul {
 .contacts-list-item a:hover {
   color: #404bbf;
 }
-
 /* #endregion */
 
 /* #region Hero */
