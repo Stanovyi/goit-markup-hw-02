@@ -47,7 +47,7 @@ address {
   line-height: 150%;
 }
 
-.navigation-list-item a {
+.navigation-list-item {
   font-weight: 500;
   color: #2e2f42;
 }
@@ -56,9 +56,9 @@ address {
   color: #434455;
 }
 
-.navigation-list-item a:hover,
-.navigation-list-item a:focus,
-.navigation-list-item a:active,
+.navigation-list-item:hover,
+.navigation-list-item:focus,
+.navigation-list-item:active,
 .contacts-list-item a:hover {
   color: #404bbf;
 }
