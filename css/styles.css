@@ -22,19 +22,21 @@ ul {
 }
 /* #endregion */
 
-/* #region Header */
-.header-navigation-logo {
+/* #region Common styles */
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-
-.navigation-logo-accent {
   color: #4d5ae5;
+}
+/* #endregion */
+
+/* #region Header */
+.navigation-logo-accent {
+  color: #2e2f42;
 }
 
 .header-navigation-list {
@@ -144,18 +146,8 @@ ul {
   background-color: #2e2f42;
 }
 
-.footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
-
 .footer-logo-accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-description {
